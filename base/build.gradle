@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+apply plugin: "java"
+apply plugin: "eclipse"
+apply plugin: "idea"
+
+jar {
+    baseName = "sprong-base"
+    version =  "0.0.1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
